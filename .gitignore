@@ -1,2 +1,5 @@
 *.html
 *.xml
+*.exe
+*.elf
+testsuites
