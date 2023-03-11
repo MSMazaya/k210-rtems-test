@@ -10,8 +10,15 @@ Also note that the test script tests my RKI image, which is available here:
 https://github.com/alanc98/rki2
 ```
 
+Copy Command:
+
 ```
 $ cp -r ~/rtems/rtems/build/kendrytek210/testsuites .
+```
+
+Renode Test run command:
+
+```
 $ renode-test k210_rtems.robot
 ```
 
