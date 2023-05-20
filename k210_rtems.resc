@@ -4,6 +4,8 @@ mach create "K210"
 
 machine LoadPlatformDescription @platforms/cpus/kendryte_k210.repl
 
+path add @/
+
 emulation CreateServerSocketTerminal 3456 'term'
 connector Connect sysbus.uart term
 
