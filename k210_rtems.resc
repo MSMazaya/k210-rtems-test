@@ -1,7 +1,5 @@
 using sysbus
 
-$bin?=@testsuites/smptests/smp01.exe
-
 mach create "K210"
 
 machine LoadPlatformDescription @platforms/cpus/kendryte_k210.repl
