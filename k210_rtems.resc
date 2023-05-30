@@ -25,5 +25,6 @@ uart WriteDoubleWord 0x8 0x1
 macro reset
 """
     sysbus LoadELF $bin 
+    quit
 """
 runMacro $reset
